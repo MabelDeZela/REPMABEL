@@ -1,0 +1,201 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "locn": "http://www.w3.org/ns/locn#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "schema1": "http://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "voaf": "http://purl.org/vocommons/voaf#",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://datos.gob.es/catalogo/a14002961-aeropuertos/record",
+      "@type": "dcat:CatalogRecord",
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2020-09-04T10:38:56.378469+02:00"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-05-09T21:10:50.612477+02:00"
+      },
+      "foaf:primaryTopic": {
+        "@id": "https://datos.gob.es/catalogo/a14002961-aeropuertos"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/a14002961-aeropuertos/resource/b19c8783-2aba-4e81-a4f2-0c4a47d04f72/format",
+      "@type": "dct:IMT",
+      "rdf:value": "application/json",
+      "rdfs:label": "JSON"
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/a14002961-aeropuertos/resource/b19c8783-2aba-4e81-a4f2-0c4a47d04f72",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "http://nexo.carm.es/nexo/archivos/recursos/opendata/json/Aeropuertos.json"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/json"
+      },
+      "dct:format": {
+        "@id": "https://datos.gob.es/catalogo/a14002961-aeropuertos/resource/b19c8783-2aba-4e81-a4f2-0c4a47d04f72/format"
+      },
+      "dct:identifier": {
+        "@type": "xsd:anyURI",
+        "@value": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/transporte/aeropuertos/63c287ad-5809-4132-b02a-706ed447325f"
+      },
+      "dct:license": {
+        "@id": "https://datosabiertos.regiondemurcia.es/avisolegal"
+      },
+      "dct:title": {
+        "@language": "es",
+        "@value": "Aeropuertos"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/a14002961-aeropuertos/resource/4348c426-c363-4e62-9fb6-c1cf594416c1",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "http://nexo.carm.es/nexo/archivos/recursos/opendata/rdf/Aeropuertos.rdf"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/rdf+xml"
+      },
+      "dct:format": {
+        "@id": "https://datos.gob.es/catalogo/a14002961-aeropuertos/resource/4348c426-c363-4e62-9fb6-c1cf594416c1/format"
+      },
+      "dct:identifier": {
+        "@type": "xsd:anyURI",
+        "@value": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/transporte/aeropuertos/e88e5f5d-b27d-4cdd-ab21-68ccdada0aea"
+      },
+      "dct:license": {
+        "@id": "https://datosabiertos.regiondemurcia.es/avisolegal"
+      },
+      "dct:title": {
+        "@language": "es",
+        "@value": "Aeropuertos.json"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/a14002961-aeropuertos/resource/4348c426-c363-4e62-9fb6-c1cf594416c1/format",
+      "@type": "dct:IMT",
+      "rdf:value": "application/rdf+xml",
+      "rdfs:label": "RDF-XML"
+    },
+    {
+      "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A14002961",
+      "@type": "foaf:Agent",
+      "dct:identifier": "A14002961",
+      "foaf:name": {
+        "@language": "es",
+        "@value": "Región de Murcia"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/a14002961-aeropuertos",
+      "@type": "dcat:Dataset",
+      "dcat:distribution": [
+        {
+          "@id": "https://datos.gob.es/catalogo/a14002961-aeropuertos/resource/b19c8783-2aba-4e81-a4f2-0c4a47d04f72"
+        },
+        {
+          "@id": "https://datos.gob.es/catalogo/a14002961-aeropuertos/resource/2c11bebf-efa3-428b-b913-8bc526b506f7"
+        },
+        {
+          "@id": "https://datos.gob.es/catalogo/a14002961-aeropuertos/resource/4348c426-c363-4e62-9fb6-c1cf594416c1"
+        }
+      ],
+      "dcat:keyword": {
+        "@language": "es",
+        "@value": "Turismo"
+      },
+      "dcat:theme": {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/transporte"
+      },
+      "dct:description": {
+        "@language": "es",
+        "@value": "Aeropuertos en la Región de Murcia"
+      },
+      "dct:identifier": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/transporte/aeropuertos",
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-03-16T00:00:00+01:00"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2024-02-14T00:00:00+01:00"
+      },
+      "dct:publisher": {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A14002961"
+      },
+      "dct:title": {
+        "@language": "es",
+        "@value": "Aeropuertos"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/a14002961-aeropuertos/resource/2c11bebf-efa3-428b-b913-8bc526b506f7",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "http://nexo.carm.es/nexo/archivos/recursos/opendata/csv/Aeropuertos.csv"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/text/csv"
+      },
+      "dct:format": {
+        "@id": "https://datos.gob.es/catalogo/a14002961-aeropuertos/resource/2c11bebf-efa3-428b-b913-8bc526b506f7/format"
+      },
+      "dct:identifier": {
+        "@type": "xsd:anyURI",
+        "@value": "https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/transporte/aeropuertos/79e2fd6d-07f0-4f90-b31b-523c2862e3d4"
+      },
+      "dct:license": {
+        "@id": "https://datosabiertos.regiondemurcia.es/avisolegal"
+      },
+      "dct:title": {
+        "@language": "es",
+        "@value": "Aeropuertos"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/a14002961-aeropuertos/resource/2c11bebf-efa3-428b-b913-8bc526b506f7/format",
+      "@type": "dct:IMT",
+      "rdf:value": "text/csv",
+      "rdfs:label": "CSV"
+    }
+  ]
+}
